@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Joke-Bot" />
+        <module name="Sbornik_anekdotov_po_10_rub" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Joke-Bot" options="-parameters" />
+      <module name="Sbornik_anekdotov_po_10_rub" options="-parameters" />
     </option>
   </component>
 </project>
